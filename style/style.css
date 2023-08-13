@@ -134,6 +134,9 @@ h2 {
 .card-layanan p {
   color: #000;
   font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   transition: all 0.3s ease-in;
 }
 
@@ -160,5 +163,80 @@ h2 {
 .card-layanan:hover p {
   color: #fff;
   font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   transition: all 0.3s ease-in;
+}
+
+/* SEARCH */
+
+#search {
+  background-image: url(../aset/image/Img-search.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search h2 {
+  color: #fefbfb;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#search p {
+  color: #fefbfb;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* input cari */
+.input-cari {
+  height: 88px;
+}
+
+.input-cari:focus {
+  border: none;
+}
+
+.input-cari .button-primary {
+  width: 200px;
+  height: 88px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--pr_color);
+  font-size: 18px;
+  border-radius: 0 0 0 10px;
+}
+
+.input-cari .button-secondary {
+  height: 88px;
+  background-color: var(--pr_color);
+  color: #fff;
+  border: none;
+  font-size: 36px;
+  font-weight: 500px;
+  border-radius: 0 10 10 0px;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 0 0;
+  color: #000;
+  border: none;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--pr_color);
+  border-radius: 0 9px 0 0;
+  font-weight: 500px;
 }
