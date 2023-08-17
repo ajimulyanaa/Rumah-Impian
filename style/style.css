@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   /* font-family: "Roboto", sans-serif; */
   background-color: FFFFFF;
 }
@@ -13,6 +13,16 @@ body {
 }
 * {
   z-index: 2;
+}
+
+/* navbar color scroll */
+.navbar-color {
+  background-color: var(--pr_color);
+  transition: all ease-in 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in 0.3s;
 }
 
 .aksen-img {
