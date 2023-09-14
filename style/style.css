@@ -76,10 +76,10 @@ a.nav-link {
 }
 
 .hero-tagline h1 {
-  color: #fff;
   font-weight: 700;
   font-size: 52px;
   line-height: 72px;
+  color: #fff;
 }
 
 .hero-tagline p {
@@ -208,6 +208,7 @@ h2 {
 /* input cari */
 .input-cari {
   height: 88px;
+  width: 100%;
 }
 
 .input-cari:focus {
